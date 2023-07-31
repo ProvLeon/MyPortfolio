@@ -1,22 +1,32 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Portfolio',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
+      'I used React and Node.js to complete this portfolio project. it took me roughly 12 hours to complete it.',
+    image: '/images/1.1.png',
+    tags: ['ReactJS', 'NextJS', 'Node'],
     source: 'https://github.com/ProvLeon/MyPortfolio',
-    visit: 'https://google.com',
+    visit: 'https://okantah.netlify.app',
     id: 0,
   },
   {
     title: 'Sales Dashboard',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      'While building it I took the opportunity to learn many advanced React & JavaScript components, as well as how to use use Material UI to create the charts. On top of that, I then decided to add to it to my portfolio.',
     image: '/images/2.1.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://github.com/ProvLeon/react-admin-ui',
-    visit: 'https://google.com',
+    tags: ['SCSS', 'React', 'JavaScript', 'Material UI'],
+    source: 'https://github.com/rovLeon/react-admin-ui',
+    visit: 'https://newsales.netlify.app',
+    id: 1,
+  },
+  {
+    title: 'Resume Generator',
+    description:
+      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    image: '/images/3.3.png',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    source: 'https://github.com/ProvLeon/provleon.github.io',
+    visit: 'https://provleon.github.io',
     id: 1,
   },
   // {
@@ -56,4 +66,12 @@ export const TimeLineData = [
     text: 'Built my first Dashboard App and also published my own portfolio',
   },
   // { year: 2021, text: 'Started my own platform', },
+];
+
+export const data = [
+  { number: 5, text: 'Open Source Projects' },
+  { number: 87, text: 'Mentees' },
+  // { number: 1900, text: 'Github Followers' },
+  { number: 90, text: 'Github Repositories' },
+  { number: 50, text: 'Github Stars' },
 ];
