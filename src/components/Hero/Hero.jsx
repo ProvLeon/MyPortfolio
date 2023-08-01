@@ -8,7 +8,6 @@ import {
 } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
-import { Span, Span1 } from '../Header/HeaderStyles';
 
 const Hero = () => (
   <Section row nopadding>
@@ -20,27 +19,33 @@ const Hero = () => (
               style={{
                 fontWeight: 'bold',
                 fontSize: '20px',
-                // padding: '0 0 2px 0',
+                padding: '0 0 5px 0',
               }}
             >
               Hi, I am
               <br />{' '}
+              <h2
+                style={{
+                  top: '20px',
+                  fontSize: '50px',
+                  fontWeight: 'bold',
+                  color: '#d9d9d9',
+                }}
+              >
+                Okantah
+              </h2>
             </SectionText>
-            <h2
-              style={{
-                // fontSize: '50px',
-                fontWeight: 'bold',
-                color: '#d9d9d9',
-              }}
-            >
-              Okantah Lomotey
-            </h2>
-            <hr style={{ width: '99%' }} />
+            {/* <hr style={{ width: '99%' }} /> */}
           </SectionTitle>
           <SectionTitle main center>
-            <h3 style={{ padding: '0', width: '40vw' }}>{e.title}</h3>
+            <h3 style={{ padding: '0' }}>{e.title}</h3>
           </SectionTitle>
-          <SectionText>{e.description}</SectionText>
+          <SectionText>
+            {e.description}
+            <h4 style={{ color: '#d9d9d0', padding: '10px 0 20px 0' }}>
+              {e.small}
+            </h4>
+          </SectionText>
         </>
       ))}
       <Button onClick={() => (window.location = '#about')} primary='true'>

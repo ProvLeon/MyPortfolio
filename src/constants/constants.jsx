@@ -15,7 +15,7 @@ export const projects = [
       'While building it I took the opportunity to learn many advanced React & JavaScript components, as well as how to use use Material UI and ReCharts to create the charts. On top of that, I then decided to add to it to my portfolio.',
     image: '/images/2.1.png',
     tags: ['SCSS', 'React', 'TypeScript', 'Material UI', 'ReCharts'],
-    source: 'https://github.com/rovLeon/react-admin-ui',
+    source: 'https://github.com/ProvLeon/react-admin-ui',
     visit: 'https://newsales.netlify.app',
     id: 1,
   },

@@ -15,7 +15,7 @@ import {
 import Image from 'next/image';
 
 const Header = () => (
-  <Container>
+  <Container style={{ justifyContent: 'space-between' }}>
     <Div1>
       <Link
         href='/'
@@ -23,12 +23,11 @@ const Header = () => (
           display: 'flex',
           alignItems: 'center',
           color: 'white',
-          marginBottom: '20px',
           marginLeft: '80px',
-          gap: '10px',
+          gap: '5px',
         }}
       >
-        <Image src='/logo.png' alt='logo' width={50} height={50} padding={5} />
+        <DiCode style={{ height: '50', width: '50' }} />
         <Span>Okantah</Span>
       </Link>
     </Div1>
