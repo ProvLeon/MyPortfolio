@@ -42,13 +42,17 @@ const Hero = () => (
           </SectionTitle>
           <SectionText>
             {e.description}
-            <h4 style={{ color: '#d9d9d0', padding: '10px 0 20px 0' }}>
+            <h4 style={{ color: '#d9d9d0', padding: '10px 0 0px 0' }}>
               {e.small}
             </h4>
           </SectionText>
         </>
       ))}
-      <Button onClick={() => (window.location = '#about')} primary='true'>
+      <Button
+        onClick={() => (window.location = '#about')}
+        primary='true'
+        style={{ paddingBottom: '5px' }}
+      >
         Learn More
       </Button>
     </LeftSection>
