@@ -12,6 +12,7 @@ import {
   SocialIcons,
   Span,
 } from './HeaderStyles';
+import Image from 'next/image';
 
 const Header = () => (
   <Container>
@@ -23,9 +24,11 @@ const Header = () => (
           alignItems: 'center',
           color: 'white',
           marginBottom: '20px',
+          marginLeft: '80px',
+          gap: '10px',
         }}
       >
-        <DiCode size='5rem' />
+        <Image src='/logo.png' alt='logo' width={50} height={50} padding={5} />
         <Span>Okantah</Span>
       </Link>
     </Div1>

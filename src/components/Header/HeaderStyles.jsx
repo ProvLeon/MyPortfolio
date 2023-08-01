@@ -21,6 +21,11 @@ export const Container = styled.div`
 export const Span = styled.span`
   font-size: 2rem;
 `;
+export const Span1 = styled.span`
+  font-size: 2rem;
+  top: 0;
+  buttom: 30;
+`;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;

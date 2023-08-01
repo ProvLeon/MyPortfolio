@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Portfolio',
     description:
-      'I used React and Node.js to complete this portfolio project. it took me roughly 12 hours to complete it.',
+      'React and Node.js was used to complete this portfolio project. it took me roughly 12 hours to complete it.',
     image: '/images/1.1.png',
     tags: ['ReactJS', 'NextJS', 'Node'],
     source: 'https://github.com/ProvLeon/MyPortfolio',
@@ -12,9 +12,9 @@ export const projects = [
   {
     title: 'Sales Dashboard',
     description:
-      'While building it I took the opportunity to learn many advanced React & JavaScript components, as well as how to use use Material UI to create the charts. On top of that, I then decided to add to it to my portfolio.',
+      'While building it I took the opportunity to learn many advanced React & JavaScript components, as well as how to use use Material UI and ReCharts to create the charts. On top of that, I then decided to add to it to my portfolio.',
     image: '/images/2.1.png',
-    tags: ['SCSS', 'React', 'JavaScript', 'Material UI'],
+    tags: ['SCSS', 'React', 'TypeScript', 'Material UI', 'ReCharts'],
     source: 'https://github.com/rovLeon/react-admin-ui',
     visit: 'https://newsales.netlify.app',
     id: 1,
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: 'Resume Generator',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      'This is a simple Resume Generator. It was developed by using HTML, CSS, and JavaScript, and this website is fully responsive on all devices',
     image: '/images/3.3.png',
     tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/ProvLeon/provleon.github.io',
