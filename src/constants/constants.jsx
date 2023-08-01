@@ -23,7 +23,7 @@ export const projects = [
     title: 'Resume Generator',
     description:
       'This is a simple Resume Generator. It was developed by using HTML, CSS, and JavaScript, and this website is fully responsive on all devices',
-    image: '/images/3.3.png',
+    image: '/images/3.3.1.png',
     tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/ProvLeon/provleon.github.io',
     visit: 'https://provleon.github.io',
