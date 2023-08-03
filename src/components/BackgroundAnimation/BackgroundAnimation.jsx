@@ -1,6 +1,7 @@
 import { Particles } from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import { useCallback } from 'react';
+import { Section } from '../../styles/GlobalComponents';
 
 const BackgroundAnimation = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -72,9 +73,9 @@ const BackgroundAnimation = () => {
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 900,
             },
-            value: 80,
+            value: 150,
           },
           opacity: {
             value: 0.5,

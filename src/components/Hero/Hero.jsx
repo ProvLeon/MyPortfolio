@@ -2,7 +2,7 @@ import React from 'react';
 
 import { heading } from '../../../data';
 import {
-  Section,
+  Section1,
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
@@ -10,7 +10,7 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section1 row nopadding>
     <LeftSection>
       {heading.map((e) => (
         <>
@@ -56,7 +56,7 @@ const Hero = () => (
         Learn More
       </Button>
     </LeftSection>
-  </Section>
+  </Section1>
 );
 
 export default Hero;
